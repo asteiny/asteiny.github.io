@@ -161,11 +161,11 @@
             },
         });
         var cluster_Projects_0 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 5});
+            spiderfyDistanceMultiplier: 2});
         cluster_Projects_0.addLayer(layer_Projects_0);
 
         bounds_group.addLayer(layer_Projects_0);
-        cluster_Projects_0.addTo(map);
+       // cluster_Projects_0.addTo(map);
         var baseMaps = {};
         L.control.layers(baseMaps,{'Projects<br /><table><tr><td style="text-align: center;"><img src="legend/Projects_0_P3sDevelopmentOfferings0.png" /></td><td>P3s & Development Offerings</td></tr><tr><td style="text-align: center;"><img src="legend/Projects_0_RealEstateDevelopment1.png" /></td><td>Real Estate & Development</td></tr><tr><td style="text-align: center;"><img src="legend/Projects_0_StrategicPlanningUrbanDesign2.png" /></td><td>Strategic Planning & Urban Design</td></tr><tr><td style="text-align: center;"><img src="legend/Projects_0_UrbanAnalytics3.png" /></td><td>Urban Analytics</td></tr><tr><td style="text-align: center;"><img src="legend/Projects_0_ZoningPolicyAnalysis4.png" /></td><td>Zoning & Policy Analysis</td></tr></table>': cluster_Projects_0,},{collapsed:false}).addTo(map);
         setBounds();
