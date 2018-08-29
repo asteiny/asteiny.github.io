@@ -33,14 +33,14 @@
         <script src="data/Projects_0.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:true, maxZoom:29, minZoom:1
-        }).fitBounds([[19.651203471,-127.899572373],[54.9680733708,-65.5636619598]]);
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[-1.23643601834,-161.336145959],[69.3973037812,-36.6643251321]]);
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
         var basemap0 = L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
             attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Mapdata: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-            maxZoom: 29
+            maxZoom: 28
         });
         basemap0.addTo(map);
         function setBounds() {
